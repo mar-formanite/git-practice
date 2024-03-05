@@ -1,2 +1,3 @@
 # git-practice
-Sketch the graph 
+Sketch the diagram
+
