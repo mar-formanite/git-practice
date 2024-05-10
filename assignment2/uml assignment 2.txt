@@ -1,0 +1,24 @@
++----------------+              +----------------+             +----------------+
+|    Movies      | 1--------- * |  BookingDetails| 1------- *  |    User        |
++----------------+              +----------------+             +----------------+
+| - title: str   |              | - booking_id:  |             | - username: str|
+| - available_sea|              |    str         |             | - logged_in: bool |
+| - selected_sea |              | - selected_sea |             | - select_movie: Movies |
+| - bookings: li |              | - screening_da |             +----------------+
++----------------+              +----------------+
+                                ^
+                                |
+                   +------------+--------------+
+                   |            TimeSlot        |
+                   +--------------------------+
+                   | - start_time: str         |
+                   | - end_time: str           |
+                   | - screening_date: str     |
+                   +--------------------------+
+                   ^
+                   |
+            +------+-------+
+            |  CinemaScreen|
+            +--------------+
+            | - screen_number: int |
+            +--------------+

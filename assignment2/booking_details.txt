@@ -1,0 +1,1 @@
+Booking ID:123456, Movie Details:The Matrix,Selected Seats: A1,A2,A3, Screening Date: 2024-05-20
